@@ -7,7 +7,7 @@ class DBConnection {
     if (!instance) instance = this;
     this.conn = mysql.createConnection({
       host: 'localhost',
-      port: 8889,
+      // port: 8889,
       user: 'root',
       password: 'root',
       database: 'inspiro_survey_db'
